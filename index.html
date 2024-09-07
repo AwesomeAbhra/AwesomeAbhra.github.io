@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Abhradeep <span>Das</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#edu">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Abhra</span></h1>
+            <h3>
+                I'm an <span>M.Tech Student at IIIT Hyderabad</span>
+            </h3>
+            <p>I am a passionate programmer who loves to create new softwares.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://github.com/AwesomeAbhra">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abhradeep-das">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image.jpeg" alt="">
+        </div>
+
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.jpeg" alt="">
+
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I am a passionate programmer who loves to create new softwares.
+            I have done my B.Tech in Computer Science and now I am pursuing my M.Tech from IIIT Hyderabad.
+            I have 2 years of working experience in Accenture. 
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="best11.png" alt="">
+                <h3>Best Playing 11 Selector</h3>
+                <p>Developed an Playing 11 Selector using Hungarian algorithm to detect the best playing 11 possible for
+                    any team sports</p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="espn.jpg" alt="">
+                <h3>ESPNCricInfo Scraper</h3>
+                <p> Developed Web Scraper to extract the data of any cricketer present in the database of espncricinfo.com
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="shell.jpg" alt="">
+                <h3>Posix Shell Implementation</h3>
+                <p>Used basic C++ system calls to implement a posix shell command line interface.</p>
+                <div class="btn">Review Project</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edu" id="edu">
+        <h2 class="heading">Education</h2>
+        <div class="edu-container">
+            <div class="edu-box">
+                <div class="edu-info">
+                    <h4>10th & 12th Raiganj Coronation High School</h4>
+                    <p>2014-2016</p>
+                </div>
+            </div>
+            <div class="edu-box">
+                <div class="edu-info">
+                    <h4>B.Tech from University of Engineering</h4>
+                    <p>2017-2021</p>
+                </div>
+            </div>
+            <div class="edu-box">
+                <div class="edu-info">
+                    <h4>M.Tech from IIIT Hyderabad</h4>
+                    <p>2024-Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/AwesomeAbhra">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/abhradeep-das">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#edu">Education</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Abhradeep Das | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
